@@ -1,0 +1,27 @@
+---
+bibliography: qm-bio.bib
+csl: harvard-cite-them-right.csl
+title: What factors affect life expectancy in London and how can it be improved?
+format: 
+  pdf:
+    include-in-header:
+      text: |
+        \addtokomafont{disposition}{\rmfamily}
+    #documentclass: report
+    #mainfont: "Spectral" # https://fonts.google.com/specimen/Spectral
+    #sansfont: "Roboto"   # https://fonts.google.com/specimen/Roboto
+    #monofont: "Inconsolata" # https://fonts.google.com/specimen/Inconsolata
+    papersize: a4
+    geometry:
+      - top=25mm
+      - left=40mm
+      - right=30mm
+      - bottom=25mm
+      - heightrounded
+    toc: false
+    number-sections: true
+    colorlinks: true
+    highlight-style: github
+---
+## Introduction
+Life expectancy (LE) is a commonly used metric to assess the mortality rate in a population, it takes into account the overall mortality rate of a population. LE is often used as a summary measure of a population's overall health and well-being, as it provides a clear and easy-to-understand indicator of mortality, which allows for meaningful comparisons of mortality rates across populations, as it adjusts for variations in the proportion of older or younger individuals in each population [@Modig].
